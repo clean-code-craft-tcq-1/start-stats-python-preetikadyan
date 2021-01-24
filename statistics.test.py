@@ -1,5 +1,6 @@
 import unittest
 import statistics
+from statistics import EmailAlert,StatsAlerter,LEDAlert
 
 class StatsTest(unittest.TestCase):
   def test_report_min_max_avg(self):
