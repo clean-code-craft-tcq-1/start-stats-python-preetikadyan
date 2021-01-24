@@ -11,7 +11,7 @@ class StatsAlerter:
          self.class_arr = class_arr
         
     def checkAndAlert(self,numbers):  
-      if (max(numbers) >= self.th): 
+      if (max(numbers) > self.th): 
          self.class_arr[0].emailSent = True
          self.class_arr[1].ledGlows = True 
         
