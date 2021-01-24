@@ -16,9 +16,9 @@ class StatsAlerter:
          self.class_arr[1].ledGlows = True 
         
 class EmailAlert:
-    emailSent = True
+    emailSent = False
     
 class LEDAlert:
-    ledGlows = True 
+    ledGlows = False 
     
     
